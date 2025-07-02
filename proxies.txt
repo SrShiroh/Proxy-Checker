@@ -1,0 +1,25 @@
+# Archivo de ejemplo de proxies para ProxyChecker
+# Formato: ip:puerto o ip:puerto:tipo
+# Tipos soportados: HTTP, HTTPS, SOCKS4, SOCKS5
+
+# Proxies HTTP públicos de ejemplo (estos pueden no funcionar)
+8.8.8.8:3128:HTTP
+1.1.1.1:3128:HTTP
+51.158.68.133:8811:HTTP
+51.79.144.52:8080:HTTP
+
+# Proxies HTTPS
+51.158.111.229:8811:HTTPS
+185.162.229.254:80:HTTPS
+
+# Proxies SOCKS4
+72.221.164.34:60671:SOCKS4
+184.178.172.25:15291:SOCKS4
+
+# Proxies SOCKS5
+72.221.164.34:60671:SOCKS5
+184.178.172.25:15291:SOCKS5
+
+# Proxies sin tipo especificado (se asume HTTP por defecto)
+45.32.101.24:80
+149.28.128.108:80
