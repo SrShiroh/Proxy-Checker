@@ -19,3 +19,6 @@ Una aplicación Java completa para verificar la validez y rendimiento de proxies
 
 - Java 11 o superior
 - Maven 3.6 o superior
+
+Próximos cambios:
+- Uso único mediante interfaz gráfica (Remover el modo consola)
